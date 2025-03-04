@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63987305788",
+    "project_id": "senati-cbc22",
+    "storage_bucket": "senati-cbc22.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63987305788:android:5095afcd5c14f533fb2239",
+        "android_client_info": {
+          "package_name": "com.example.trabajo_grupal_s3_diaz_villa_cueva"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYob0y_uqOJ8cC7GMLXJ8NWZq7gCcaT68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
