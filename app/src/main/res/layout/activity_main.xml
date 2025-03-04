@@ -27,7 +27,8 @@
             android:layout_height="wrap_content"
             android:text="Bienvenidos a"
             android:textAlignment="center"
-            android:textSize="18sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:textColor="@color/black" />
 
         <TextView
@@ -39,15 +40,6 @@
             android:textSize="34sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:text="Elige tu usuario:"
-            android:textAlignment="center"
-            android:textSize="18sp"
-            android:textColor="@color/black" />
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -55,12 +47,23 @@
             android:gravity="bottom"
             android:layout_margin="40dp" >
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:text="Elige tu usuario:"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black" />
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#607D8B"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:text="CONDUCTOR" />
 
             <Button
@@ -68,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/black"
                 android:textStyle="bold"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:text="CLIENTE"/>
 
         </LinearLayout>
